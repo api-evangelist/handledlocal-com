@@ -1,4 +1,4 @@
-# handledlocal-com
+# Handled
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-handledlocal-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://handledlocal.com/
+Handled builds websites, software, and runs paid ads for local service businesses across the US, from its base in Houston, TX. The company ships its own SaaS product, ensuring the team building yours has done it before, and offers AI connectors for ChatGPT or Claude integration. Services include website design, SEO, paid ads management, AI automation, and ongoing site management, all tailored to local businesses.
+
+**Areas:** Company · SaaS · Web Development · Paid Advertising · Local Business
+
+## Handled on APIs.io
+
+Everything profiled for Handled is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/handledlocal-com/](https://apis.io/providers/handledlocal-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Handled Locator API](https://apis.io/apis/handledlocal-com/handled-locator-api/) — Create, read, update and delete locations from your own systems, and query them for a custom front end.
+- [Handled API](https://apis.io/apis/handledlocal-com/handledlocal-com-api/) — Handled API as documented publicly: 10 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Handledlocal Com Webhooks](https://apis.io/asyncapis/handledlocal-com/handledlocal-com-webhooks/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiV1LocationsResponse](https://apis.io/schemas/handledlocal-com/handledlocal-com-get-api-v1-locations-response/)
+- [PatchApiV1LocationsIdRequest](https://apis.io/schemas/handledlocal-com/handledlocal-com-patch-api-v1-locations-id-request/)
+- [PostApiV1LocationsRequest](https://apis.io/schemas/handledlocal-com/handledlocal-com-post-api-v1-locations-request/)
+- [PostApiV1LocationsResponse](https://apis.io/schemas/handledlocal-com/handledlocal-com-post-api-v1-locations-response/)
+- [PostHandledRequest](https://apis.io/schemas/handledlocal-com/handledlocal-com-post-handled-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Handledlocal Com Context](https://apis.io/jsonld/handledlocal-com/handledlocal-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Handled API Rules](https://apis.io/rules/handledlocal-com/handledlocal-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Handled Domain Security](https://apis.io/security/handledlocal-com/handledlocal-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Handled Plans Pricing](https://apis.io/plans/handledlocal-com/handledlocal-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://handledlocal.com/)
+- [Documentation](https://locator.handledlocal.com/docs)
+- [Getting started](https://locator.handledlocal.com/docs/quickstart)
+- [Pricing](https://locator.handledlocal.com/pricing)
+- [Blog](https://handledlocal.com/blog/)
+- [Privacy policy](https://handledlocal.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 50.0** — developing · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 62.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 62.6 |
+
+**Agent readiness 40.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/handledlocal-com/](https://apis.io/providers/handledlocal-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Handled: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/handledlocal-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
